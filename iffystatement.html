@@ -11,22 +11,31 @@
  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
  
 </head>
-<p><input type="text"><button id= "userInput">Do you do intervals...yes or no?</button></p>
+<p><input type="checkbox"><button id="userYes">I do intervals!</button></p>
+<p><input type="checkbox"><button id="userNo">No I do not...</button></p>
 <body>
 <script type ="text/javascript">
-  function input (){
-  if (userInput) {
+
+
+    // var y = "yes";
+    // var n = "no";
+  if (userYes) {
+    document.getElementById("userYes").onclick= function() {   
       
     //   The button "onclick" is not correct...
-      userInput = "yes";
+      // userInput = "yes";
       console.log("way to go");
-}   if (userInput) {
-    userInput = "no";
+      }
+  if (userNo) {
+    document.getElementById("userNo").onclick= function() {  
+    // userInput = "no";
     console.log("you will regret this!");
-    document.getElementById("userInput").onclick=input;
+  }
   }  
+    }
     </script>
-
+<!-- so CLOSE but it console logs both statements -->
+<!-- have it where the yes gives way to go. and the no gives way to go... -->
 
     </body>
     </html>
