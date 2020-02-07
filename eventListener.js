@@ -1,5 +1,6 @@
-const buttonOne = document.getElementById('theMainButton');
-buttonOne.addEventListener ('click', (changeText)); {
-document.getElementById('theMainButton').onclick="Presto Chango";
+
+document.addEventListener ('click', (changeText)); {
+// document.getElementById('theMainButton').style.backgroundColor="pink";
+document.getElementById('theMainButton').mouseover="Presto Chango";
 
 }
