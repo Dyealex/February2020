@@ -1,0 +1,123 @@
+/* <!-- GitEducation Week 3 Homework--> */
+ #boldDesign:hover {
+    font-size: 40px;
+    font-style: italic;
+    color: purple; 
+} 
+#theHeader {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+#theHeaderElement {
+    border: 2px solid #774488;
+    width: 1200px;
+    height: 250px;
+    background-image: image("sunrisephoto.jpg");
+    box-sizing: border-box;
+    }
+    #gitFirst {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px #9966ff;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+
+#elEss {
+    margin-top: 5px;
+    font-size: 12px;
+}
+#rules {
+    width: 200px;
+    border-bottom-color: #9966ff;
+}
+
+#cbc8 {
+    text-align: center;
+    font-size: 10px;
+}
+
+#paragraphTwo {
+
+    width: 575px;
+    height: 300px;
+    /* margin-right: 300px; */
+    padding: 11px;
+    display: inline-block;
+    margin-left: 100px;
+    border: 2px solid #ff00ff;
+    box-shadow: -3px -2px gray;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #99ccff 20%, #ff99cc 68%);
+    }
+
+/* #gitFirst {
+    text-shadow: 1px 1px #9966ff;
+    font-family: 'Roboto', sans-serif;
+} */
+
+#paragraphThree {
+
+    margin-top: -100px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+#gitAhead {
+    color: #9966ff;
+    border-left: 4px solid  #9966ff;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#theHeaderElement {
+border: 2px solid #774488;
+width: 1200px;
+height: 250px;
+background-image: image("sunrisephoto.jpg");
+box-sizing: border-box;
+}
+#siteTitle {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 470px;
+    color: white;
+    font-size: 50px;
+}
+/* #microCrap {
+    width: 575px;
+    border: 2px solid rgb(153, 0, 204);
+    display:block;
+    margin-left: 598px;
+    margin-top: -550px;
+    padding: 10px;
+} */
+#paragraphFour {
+    width: 480px;
+    font-family: 'Roboto', sans-serif;
+}
+#rant {
+    text-align: center;
+}
+#microCrap {
+    width: 575px;
+    border: 2px solid rgb(153, 0, 204);
+    display:block;
+    margin-left: 598px;
+    margin-top: -550px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.paragraphFive {
+    display: inline-block;
+    max-width: 500px;
+    margin-top: 900px;
+    font-family: 'Roboto', sans-serif;
+}
+/* #boldDesign:hover { */
+    /* font-size: 40px; */
+    /* font-style: italic; */
+    /* color: purple; */
+/* } */
