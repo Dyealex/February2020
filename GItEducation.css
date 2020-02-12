@@ -4,10 +4,10 @@
     font-style: italic;
     color: purple; 
 } 
-#theHeader {
+/* #theHeader {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-}
+} */
 #theHeaderElement {
     border: 2px solid #774488;
     width: 1200px;
@@ -21,7 +21,10 @@
         text-shadow: 1px 1px #9966ff;
         font-family: 'Roboto', sans-serif;
     }
-    
+#firstParagraph {
+    width: 1200px;
+    text-align: center;
+}    
 
 #elEss {
     margin-top: 5px;
@@ -32,19 +35,16 @@
     border-bottom-color: #9966ff;
 }
 
-#cbc8 {
-    text-align: center;
-    font-size: 10px;
-}
+
 
 #paragraphTwo {
-
-    width: 575px;
+    margin-top: 50px;
+    width: 475px;
     height: 300px;
     /* margin-right: 300px; */
     padding: 11px;
-    display: inline-block;
-    margin-left: 100px;
+    /* display: inline-block; */
+    margin-left: 20px;
     border: 2px solid #ff00ff;
     box-shadow: -3px -2px gray;
     font-family: 'Roboto', sans-serif;
@@ -58,12 +58,14 @@
 
 #paragraphThree {
 
-    margin-top: -100px;
+    margin-top: 50px;
     margin: 10px;
-    width: 300px;
+    width: 450px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
+    
 }
 
 #gitAhead {
@@ -81,8 +83,9 @@ box-sizing: border-box;
 }
 #siteTitle {
     position: absolute;
-    margin-top: -80px;
-    margin-left: 470px;
+    margin-top: -90px;
+    /* text-align: center; */
+    margin-left: 360px;
     color: white;
     font-size: 50px;
 }
@@ -91,12 +94,16 @@ box-sizing: border-box;
     border: 2px solid rgb(153, 0, 204);
     display:block;
     margin-left: 598px;
-    margin-top: -550px;
+    margin-top: -1550px;
     padding: 10px;
 } */
 #paragraphFour {
-    width: 480px;
+    /* display:inline; */
+    width: 520px;
+    height: 400px;
     font-family: 'Roboto', sans-serif;
+    margin-left: 700px;
+    margin-top: -400px;
 }
 #rant {
     text-align: center;
@@ -104,17 +111,26 @@ box-sizing: border-box;
 #microCrap {
     width: 575px;
     border: 2px solid rgb(153, 0, 204);
-    display:block;
+    /* display:inline-block; */
     margin-left: 598px;
-    margin-top: -550px;
+    margin-top: -650px;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
 }
 .paragraphFive {
-    display: inline-block;
+    /* display: inline; */
     max-width: 500px;
-    margin-top: 900px;
+    margin-top: 200px;
     font-family: 'Roboto', sans-serif;
+}
+#cbc8 {
+    text-align: center;
+    font-size: 10px;
+}
+.paragraphSix {
+margin-top: 400px;
+
+
 }
 /* #boldDesign:hover { */
     /* font-size: 40px; */
