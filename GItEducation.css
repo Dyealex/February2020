@@ -6,7 +6,16 @@
     font-style: italic;
     color: purple; 
 } 
-
+/* the small type in the gittin use to git section */
+#elEss {
+    margin-top: 5px;
+    font-size: 12px;
+}
+/* the horizontal rule rule */
+#rules {
+    width: 200px;
+    border-bottom-color: #9966ff;
+}
 
 /* the header at the top of the page */
 #theHeaderElement {
@@ -26,7 +35,7 @@
     font-size: 50px;
 }
 
-    /* the title of the first paragraph */
+    /* the title of the first paragraph "the git essentials" */
 #gitFirst {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -39,19 +48,8 @@
     text-align: center;
 } 
 
-/* the small type in the gittin use to git section */
-#elEss {
-    margin-top: 5px;
-    font-size: 12px;
-}
-
-/* the horizontal rule rule */
-#rules {
-    width: 200px;
-    border-bottom-color: #9966ff;
-}
-
 /* the gitting use to git section */
+/* the h3 is within the div */
 #paragraphTwo {
     margin-top: 50px;
     width: 475px;
@@ -59,7 +57,7 @@
     /* margin-right: 300px; */
     padding: 11px;
     /* display: inline-block; */
-    margin-left: 20px;
+    margin-left: 10px;
     border: 2px solid #ff00ff;
     box-shadow: -3px -2px gray;
     font-family: 'Roboto', sans-serif;
@@ -67,14 +65,16 @@
     }
 
 /* the gitting a new directory section */
+/* the h3 is within the section */
 #paragraphThree {
-    margin-top: 50px;
+    margin-top: -400px;
     margin: 10px;
     width: 450px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
     /* display: inline-block; */
-    float: left;
+    /* float: left; */
     
 }
 
@@ -82,20 +82,22 @@
 #gitAhead {
     color: #9966ff;
     border-left: 4px solid  #9966ff;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -500;
     font-family: 'Roboto', sans-serif;
 }
 
 
 
-/* the changing directories paragraph */
+/* the where the heck am i paragraph */
 #paragraphFour {
     /* display:inline; */
     width: 520px;
     height: 400px;
     font-family: 'Roboto', sans-serif;
     margin-left: 700px;
-    margin-top: -400px;
+    margin-top: -600px;
+    /* margin-left:10px; */
 }
 
 /* the microsoft aside section */
@@ -104,11 +106,11 @@
     }
 
     #microCrap {
-    width: 575px;
+    width: 450px;
     border: 2px solid rgb(153, 0, 204);
     /* display:inline-block; */
-    margin-left: 598px;
-    margin-top: -650px;
+    margin-left: 700px;
+    margin-top: -750px;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     }
@@ -116,9 +118,10 @@
 /* the gitting tricky paragraph */
 .paragraphFive {
     /* display: inline; */
-    max-width: 500px;
+    width: 500px;
     margin-top: 200px;
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
 }
 
 /* the footer element */
@@ -126,8 +129,13 @@
     text-align: center;
     font-size: 10px;
 }
+#importantParagraph {
 
+
+    /* margin-left: 600px; */
+}
 /* the git our homework paragraph */
 .paragraphSix {
-margin-top: 400px;
+margin-top: 700px;
+margin-left: 10px;
 }
